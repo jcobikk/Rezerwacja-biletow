@@ -22,7 +22,7 @@ Prosta, konsolowa aplikacja zrealizowana w języku C# (w paradygmacie programowa
 
 Aplikacja renderuje w oknie konsoli przejrzysty układ sali kinowej:
 
-```text
+
 Rezerwacja biletów do kina
 Seans: Incepcja, Kiedy: 2026-06-22 18:00:00
 
