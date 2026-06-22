@@ -18,11 +18,23 @@ Prosta, konsolowa aplikacja zrealizowana w języku C# (w paradygmacie programowa
 * **`Miejsce.cs`** - Model pojedynczego fotela kinowego, przechowujący jego współrzędne (rząd, numer) oraz stan (`CzyZajete`).
 * **`Film.cs`** - Model przechowujący podstawowe metadane o tytule, czasie trwania i gatunku filmu.
 
+🛠️ Jak uruchomić projekt
+Upewnij się, że masz zainstalowane środowisko .NET SDK (w wersji 6.0, 7.0 lub nowszej).
+
+Sklonuj repozytorium lub pobierz pliki źródłowe do jednego folderu.
+
+Otwórz terminal / wiersz poleceń w folderze z projektem.
+
+Uruchom aplikację wpisując polecenie:
+
+Bash
+dotnet run
+
 ## 💻 Wygląd Interfejsu
 
 Aplikacja renderuje w oknie konsoli przejrzysty układ sali kinowej:
 
-
+```text
 Rezerwacja biletów do kina
 Seans: Incepcja, Kiedy: 2026-06-22 18:00:00
 
@@ -37,14 +49,3 @@ Seans: Incepcja, Kiedy: 2026-06-22 18:00:00
 ------------------
 1. Zarezerwuj bilet
 2. Wyjdź
-
-🛠️ Jak uruchomić projekt
-Upewnij się, że masz zainstalowane środowisko .NET SDK (w wersji 6.0, 7.0 lub nowszej).
-
-Sklonuj repozytorium lub pobierz pliki źródłowe do jednego folderu.
-
-Otwórz terminal / wiersz poleceń w folderze z projektem.
-
-Uruchom aplikację wpisując polecenie:
-
-dotnet run
