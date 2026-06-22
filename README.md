@@ -37,3 +37,14 @@ Seans: Incepcja, Kiedy: 2026-06-22 18:00:00
 ------------------
 1. Zarezerwuj bilet
 2. Wyjdź
+
+🛠️ Jak uruchomić projekt
+Upewnij się, że masz zainstalowane środowisko .NET SDK (w wersji 6.0, 7.0 lub nowszej).
+
+Sklonuj repozytorium lub pobierz pliki źródłowe do jednego folderu.
+
+Otwórz terminal / wiersz poleceń w folderze z projektem.
+
+Uruchom aplikację wpisując polecenie:
+
+dotnet run
