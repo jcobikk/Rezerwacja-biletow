@@ -60,12 +60,31 @@ public class KinoSystem
     }
     private void ObsluzRezerwacje()
     {
-            
+        int rzad;
+        int miejsce;
         Console.WriteLine("Podaj rząd: ");
-        int podanyrzad = int.Parse(Console.ReadLine());
+        while (true)
+        {
+            string podanyrzad = Console.ReadLine();
+            if(int.TryParse(podanyrzad, out rzad))
+            {
+                break;
+            }
+            Console.WriteLine("Podaj cyfrę!");
+        }
         Console.WriteLine("Podaj miejsce: ");
-        int podanemiejsce = int.Parse(Console.ReadLine());
-        if(_aktualnySeans.ZarezerwujMiejsce(podanyrzad, podanemiejsce))
+
+        while (true)
+        {
+            string podanemiejsce = Console.ReadLine();
+            if(int.TryParse(podanemiejsce, out miejsce))
+            {
+                break;
+            }
+            Console.WriteLine("Podaj cyfrę!");
+        }
+
+        if(_aktualnySeans.ZarezerwujMiejsce(rzad, miejsce))
         {
             Console.WriteLine("Zarezerwowano miejsce!");
         }
