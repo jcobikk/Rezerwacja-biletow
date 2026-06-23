@@ -14,8 +14,14 @@ class Seans
         {
             for(int m = 1; m < 11; m++)
             {
-                Miejsce noweMiejsce = new Miejsce(r,m);
-                Miejsca.Add(noweMiejsce);
+                if (r == 5)
+                {
+                    Miejsca.Add(new MiejsceVIP(r,m));
+                }
+                else
+                {
+                    Miejsca.Add(new Miejsce(r,m));
+                }
             }
         }
     }

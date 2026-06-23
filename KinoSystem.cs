@@ -31,11 +31,15 @@ public class KinoSystem
             {
                 if (m.CzyZajete)
                 {
-                    Console.Write("[X]");
+                    Console.Write("[X] ");
+                }
+                else if(m is MiejsceVIP)
+                {
+                    Console.Write("V V ");
                 }
                 else
                 {
-                    Console.Write("[ ]");
+                    Console.Write("[ ] ");
                 }
                 if(m.NumerMiejscaWRzedzie == 10)
                 {

@@ -1,4 +1,4 @@
-class Miejsce
+public class Miejsce
 {
     public int NumerRzedu {get; set;}
     public int NumerMiejscaWRzedzie {get; set;}
